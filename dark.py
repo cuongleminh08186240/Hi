@@ -642,9 +642,9 @@ def genkey_command(message):
         bot.send_message(chat_id, (
             "*Usage: /genkey <amount> <unit>*\n\n"
             "Available units and prices:\n"
-            "- hour/hours (10₹ per hour)\n"
-            "- day/days (80₹ per day)\n"
-            "- week/weeks (500₹ per week)"
+            "- hour/hours (free hour)\n"
+            "- day/days (free day)\n"
+            "- week/weeks (free week)"
         ), parse_mode='Markdown')
         return
     
